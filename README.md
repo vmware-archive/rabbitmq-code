@@ -1,2 +1,2 @@
-# rabbitmq-code
-RabbitMQ Course Code
+# rabbitmq-course
+RabbitMQ  Course Labs

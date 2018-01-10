@@ -1,0 +1,51 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            url "http://platform-acceleration-lab-maven.s3.amazonaws.com"
+        }
+    }
+
+    dependencies {
+        classpath "io.pivotal.pal.shipkin:shipkin-plugin:3.5.0"
+    }
+}
+
+apply plugin: "io.pivotal.pal.shipkin.plugin"
+
+shipkin {
+    baseName = "rabbitmq"
+    courseVersion = "3.7"
+    courseTitle = "RabbitMQ"
+    showDisclaimer = true
+    //feedbackUrl = "https://drive.google.com/open?id=1x09OgyTF3dBFUEkcqgZ3ywXfQRdn8zoDF8QSh69wZzQ"
+    //feedbackUrlField = "entry.123456789"
+    useSecurity = true
+
+    units = ["unit"]
+
+    topicKey = [
+        "setup": "default",
+        "cloud": "info",
+        "boot" : "primary",
+        "architecture" : "danger",
+        "developer": "success",
+        "reference": "warning"
+    ]
+
+    theme {
+        mainColor = "#34302d"
+        linkColor = "#5fa134"
+        accentColor = "#6db33f"
+        favicon = "/images/favicon.png"
+        backgroundColor = "#f1f1f1"
+        fontColor = "#34302d"
+    }
+}
+
+task updateGitSubmodules(type: Exec) {
+    workingDir project.projectDir
+    commandLine "git", "submodule", "update", "--init", "--recursive"
+}
+
+defaultTasks "tasks"

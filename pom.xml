@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.gopivotal.rabbitmq</groupId>
+	<artifactId>rabbitmq-training-parent</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0.0</version>
+	<name>rabbitmq-training-parent</name>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.rabbitmq</groupId>
+			<artifactId>amqp-client</artifactId>
+			<version>${rabbit.client.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+	</dependencies>
+
+	<modules>
+		<module>quotations</module>
+		<module>java-message-sender-receiver-start</module>
+		<module>java-message-sender-receiver-solution</module>
+		<module>using-routing-capabilities-start</module>
+		<module>using-routing-capabilities-solution</module>
+		<module>reliable-message-flow-start</module>
+		<module>reliable-message-flow-solution</module>
+		<module>ha-solution</module>
+        <module>ha-start</module>
+        <module>benchmarking-configurations-start</module>
+        <module>benchmarking-configurations-solution</module>
+        <module>preventing-broker-accepting-traffic-start</module>
+        <module>preventing-broker-accepting-traffic-solution</module>
+		<module>security-start</module>
+		<module>security-solution</module>
+		<module>spring-amqp-start</module>
+		<module>spring-amqp-solution</module>
+	</modules>
+
+	<properties>
+		<rabbit.client.version>3.6.1</rabbit.client.version>
+		<spring.amqp.version>1.5.5.RELEASE</spring.amqp.version>
+		<spring.framework.version>4.2.5.RELEASE</spring.framework.version>
+		<slf4j.version>1.7.14</slf4j.version>
+		<h2.version>1.4.191</h2.version>
+		<jfreechart.version>1.0.14</jfreechart.version>
+		<jetty.version>6.1.26</jetty.version>
+		<logback.version>1.1.3</logback.version>
+		<junit.version>4.12</junit.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+
+
+</project>

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+header {
+    background-color: #34302d;
+    border-top: 4px solid #6db33f;
+    height: 78px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#spring-logo {
+    display: block;
+    width: 224px;
+    height: 46px;
+}
+
+#spring-logo span {
+    display: block;
+    width: 224px;
+    height: 46px;
+    opacity: 0;
+    -moz-transition: opacity .12s ease-in-out;
+    -webkit-transition: opacity .12s ease-in-out;
+    -o-transition: opacity .12s ease-in-out;
+}
+
+#spring-logo:hover span {
+    opacity: 1;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+#sidebar {
+    border: 1px solid #ccc;
+    box-shadow: 0 -4px 0 #34302d;
+    border-radius: 0;
+}
+
+#sidebar .panel-header {
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+#sidebar .panel-body {
+    border-top: 1px solid #fff;
+}
+
+pre {
+    border-radius: 0;
+    padding: 9.5px;
+}
+
+pre code.hljs, pre code {
+    padding: 0;
+}

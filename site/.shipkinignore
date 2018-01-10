@@ -1,0 +1,9 @@
+README.md
+build.gradle
+gradle
+gradlew
+gradlew.bat
+*.json
+*.pptx
+*.ppt
+*.docx
