@@ -1,0 +1,3 @@
+com/gopivotal/rabbitmq/DeliveryModeSender.class
+com/gopivotal/rabbitmq/AcknowledgementBencher.class
+com/gopivotal/rabbitmq/BigQuotationSender.class

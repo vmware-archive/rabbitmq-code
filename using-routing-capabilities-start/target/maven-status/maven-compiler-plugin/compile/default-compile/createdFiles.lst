@@ -1,0 +1,7 @@
+com/gopivotal/rabbitmq/rpc/QuotationOfferDecider.class
+com/gopivotal/rabbitmq/pubsub/QuotationSender.class
+com/gopivotal/rabbitmq/pubsub/QuotationWebUi$1.class
+com/gopivotal/rabbitmq/pubsub/QuotationWebUi$QuotationSummaryHandler.class
+com/gopivotal/rabbitmq/pubsub/QuotationLogger.class
+com/gopivotal/rabbitmq/pubsub/QuotationWebUi.class
+com/gopivotal/rabbitmq/rpc/QuotationSubmitter.class

@@ -3,10 +3,10 @@
  */
 package com.gopivotal.rabbitmq;
 
-import org.junit.Assert;
-import org.junit.Test;
 
-import com.gopivotal.rabbitmq.QuotationService;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
@@ -50,10 +50,10 @@ public class SendingAndReceivingTest {
 			response = channel.basicGet("quotations", true);
 		}
 
-		Assert.assertNotNull(response);
+		Assertions.assertNotNull(response);
 
 		String receivedQuotation = new String(response.getBody());
-		Assert.assertEquals(quotation, receivedQuotation);
+		Assertions.assertEquals(quotation, receivedQuotation);
 
 		channel.close();
 

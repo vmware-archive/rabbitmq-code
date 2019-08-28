@@ -9,7 +9,7 @@ import java.util.Calendar;
 import java.util.List;
 
 import org.jfree.chart.ChartFactory;
-import org.jfree.chart.ChartUtilities;
+import org.jfree.chart.ChartUtils;
 import org.jfree.chart.JFreeChart;
 import org.jfree.data.time.Second;
 import org.jfree.data.time.TimeSeries;
@@ -46,7 +46,7 @@ public class Chart {
 	}
 	
 	public void write(OutputStream out) throws IOException {
-		ChartUtilities.writeChartAsPNG(out, chart, 500, 500);
+		ChartUtils.writeChartAsPNG(out, chart, 500, 500);
 	}
 	
 }

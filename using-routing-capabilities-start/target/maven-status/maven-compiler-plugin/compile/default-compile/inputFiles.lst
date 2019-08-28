@@ -1,0 +1,5 @@
+/Users/wlund/Dropbox/git-workspace/wlund-pivotal/platform-acceleration-lab/rabbitmq-code/using-routing-capabilities-start/src/main/java/com/gopivotal/rabbitmq/pubsub/QuotationWebUi.java
+/Users/wlund/Dropbox/git-workspace/wlund-pivotal/platform-acceleration-lab/rabbitmq-code/using-routing-capabilities-start/src/main/java/com/gopivotal/rabbitmq/pubsub/QuotationSender.java
+/Users/wlund/Dropbox/git-workspace/wlund-pivotal/platform-acceleration-lab/rabbitmq-code/using-routing-capabilities-start/src/main/java/com/gopivotal/rabbitmq/rpc/QuotationSubmitter.java
+/Users/wlund/Dropbox/git-workspace/wlund-pivotal/platform-acceleration-lab/rabbitmq-code/using-routing-capabilities-start/src/main/java/com/gopivotal/rabbitmq/rpc/QuotationOfferDecider.java
+/Users/wlund/Dropbox/git-workspace/wlund-pivotal/platform-acceleration-lab/rabbitmq-code/using-routing-capabilities-start/src/main/java/com/gopivotal/rabbitmq/pubsub/QuotationLogger.java

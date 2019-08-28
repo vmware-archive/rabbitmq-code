@@ -3,19 +3,16 @@
  */
 package com.gopivotal.rabbitmq;
 
-import org.junit.Assert;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
  * 
  */
 @ContextConfiguration(classes=SenderConfiguration.class)
-@RunWith(SpringJUnit4ClassRunner.class)
 public class SendingAndReceivingTest {
 	
 	@Autowired RabbitTemplate template;
@@ -33,9 +30,9 @@ public class SendingAndReceivingTest {
 			receivedQuotation = (String)template.receiveAndConvert("quotations");
 		}
 
-		Assert.assertNotNull(receivedQuotation);
+		Assertions.assertNotNull(receivedQuotation);
 
-		Assert.assertEquals(quotation, receivedQuotation);
+		Assertions.assertEquals(quotation, receivedQuotation);
 	}
 
 }

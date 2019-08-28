@@ -1,0 +1,6 @@
+com/gopivotal/rabbitmq/ha/HaQuotationConsumer.class
+com/gopivotal/rabbitmq/QuotationSender.class
+com/gopivotal/rabbitmq/QuotationConsumer.class
+com/gopivotal/rabbitmq/ha/HaQuotationSender.class
+com/gopivotal/rabbitmq/ha/HaQuotationConsumer$1.class
+com/gopivotal/rabbitmq/QuotationConsumer$1.class

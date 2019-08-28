@@ -3,14 +3,7 @@
  */
 package com.gopivotal.rabbitmq;
 
-import org.junit.Assert;
-import org.junit.Test;
-
-import com.gopivotal.rabbitmq.QuotationService;
-import com.rabbitmq.client.Channel;
-import com.rabbitmq.client.Connection;
-import com.rabbitmq.client.ConnectionFactory;
-import com.rabbitmq.client.GetResponse;
+import org.junit.jupiter.api.Test;
 
 /**
  *
