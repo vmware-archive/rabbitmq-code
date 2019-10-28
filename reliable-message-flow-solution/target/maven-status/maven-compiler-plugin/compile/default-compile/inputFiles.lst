@@ -1,9 +1,0 @@
-/Users/wlund/Dropbox/git-workspace/wlund-pivotal/platform-acceleration-lab/rabbitmq-code/reliable-message-flow-solution/src/main/java/com/gopivotal/rabbitmq/TransactionalQuotationSender.java
-/Users/wlund/Dropbox/git-workspace/wlund-pivotal/platform-acceleration-lab/rabbitmq-code/reliable-message-flow-solution/src/main/java/com/gopivotal/rabbitmq/SimpleReceiver.java
-/Users/wlund/Dropbox/git-workspace/wlund-pivotal/platform-acceleration-lab/rabbitmq-code/reliable-message-flow-solution/src/main/java/com/gopivotal/rabbitmq/besteffort/Chart.java
-/Users/wlund/Dropbox/git-workspace/wlund-pivotal/platform-acceleration-lab/rabbitmq-code/reliable-message-flow-solution/src/main/java/com/gopivotal/rabbitmq/QuotationSender.java
-/Users/wlund/Dropbox/git-workspace/wlund-pivotal/platform-acceleration-lab/rabbitmq-code/reliable-message-flow-solution/src/main/java/com/gopivotal/rabbitmq/besteffort/DatabaseQuotationSender.java
-/Users/wlund/Dropbox/git-workspace/wlund-pivotal/platform-acceleration-lab/rabbitmq-code/reliable-message-flow-solution/src/main/java/com/gopivotal/rabbitmq/besteffort/StartServers.java
-/Users/wlund/Dropbox/git-workspace/wlund-pivotal/platform-acceleration-lab/rabbitmq-code/reliable-message-flow-solution/src/main/java/com/gopivotal/rabbitmq/FairQuotationConsumer.java
-/Users/wlund/Dropbox/git-workspace/wlund-pivotal/platform-acceleration-lab/rabbitmq-code/reliable-message-flow-solution/src/main/java/com/gopivotal/rabbitmq/besteffort/DatabaseQuotationLogger.java
-/Users/wlund/Dropbox/git-workspace/wlund-pivotal/platform-acceleration-lab/rabbitmq-code/reliable-message-flow-solution/src/main/java/com/gopivotal/rabbitmq/besteffort/JdbcUtils.java
