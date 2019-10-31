@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-amqp-resilient
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        

@@ -11,7 +11,7 @@
 		<version>1.0.0</version>
 	</parent>
 
-	<artifactId>10-spring-amqp-solution</artifactId>
+	<artifactId>spring-amqp-solution</artifactId>
 	<packaging>jar</packaging>
 	<name>spring-amqp-solution</name>
 
